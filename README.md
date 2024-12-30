@@ -15,6 +15,7 @@ Download latest release for your OS / Architecture and extract the binary to you
 ```
 colnum COLUMN_STRING
 ```
-
--h --help           - Display help information.
--z --zero-index     - Return a zero-indexed column number (1-indexing is the default).
+| option | description |
+| ------ | ----------- |
+| -h --help | Display help information. |
+| -z --zero-index | Return a zero-indexed column number (1-indexing is the default). |
