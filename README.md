@@ -1,4 +1,4 @@
-#colnum
+# colnum
 
 Takes a spreadsheet column indicator and returns its column number. Takes Excel, Google Sheets and ODS style indicators, e.g. A=1, Z=26, AA=27. The returned column number is 1-indexed.
 
