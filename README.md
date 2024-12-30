@@ -15,7 +15,28 @@ Download latest release for your OS / Architecture and extract the binary to you
 ```
 colnum COLUMN_STRING
 ```
+`COLUMN_STRING` is case-insentive.
+
 | option | description |
 | ------ | ----------- |
 | -h --help | Display help information. |
 | -z --zero-index | Return a zero-indexed column number (1-indexing is the default). |
+
+**Examples**
+
+> $ colnum A
+> 
+> $ 1
+
+> $ colnum aa
+> 
+> $ 27
+
+> $ colnum -z AA
+> 
+> $ 26
+
+> $ colnum BC
+> 
+> $ 55
+
