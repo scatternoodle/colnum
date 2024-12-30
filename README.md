@@ -9,7 +9,9 @@ go install github.com/scatternoodle/colnum
 ```
 **Manual**
 
-Download latest release for your OS / Architecture and extract the binary to your preferred directory.
+Download the
+ <a href="https://github.com/scatternoodle/colnum/releases/latest" target="_blank">latest release</a>
+ for your OS / Architecture and extract the binary to your preferred directory.
 
 ## Usage
 ```
