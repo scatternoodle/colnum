@@ -89,7 +89,7 @@ func main() {
 		os.Exit(1)
 	}
 	if zeroIndex {
-		num++
+		num--
 	}
 	fmt.Println(num)
 }
