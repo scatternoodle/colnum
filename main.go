@@ -16,10 +16,11 @@ func usageInfo() string {
 
 func helpInfo() string {
 	return usageInfo() +
-		"Takes a spreadsheet column indicator and returns its column number. " +
-		"Takes Excel, Google Sheets and ODS style indicators, e.g. A=1, Z=26, AA=27. " +
-		"The returned column number is 1-indexed." +
-		"\n\n" +
+		" Takes a spreadsheet column indicator and returns its column number.\n" +
+		" Takes Excel, Google Sheets and ODS style indicators, e.g. A=1, Z=26, AA=27.\n" +
+		" The returned column number is 1-indexed.\n" +
+		" COLUMN_STRING is case-insensitive.\n" +
+		"\n" +
 		"-h --help           - Display help information.\n" +
 		"-z --zero-index     - Return a zero-indexed column number (1-indexing is the default).\n"
 }
