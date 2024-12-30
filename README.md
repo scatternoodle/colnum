@@ -10,7 +10,7 @@ go install github.com/scatternoodle/colnum
 **Manual**
 
 Download the
- <a href="https://github.com/scatternoodle/colnum/releases/latest" target="_blank">latest release</a>
+ [latest release](https://github.com/scatternoodle/colnum/releases/latest)
  for your OS / Architecture and extract the binary to your preferred directory.
 
 ## Usage
